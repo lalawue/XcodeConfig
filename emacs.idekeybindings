@@ -48,11 +48,11 @@
 			</dict>
 			<dict>
 				<key>Action</key>
-				<string>cut:</string>
+				<string>copy:</string>
 				<key>Alternate</key>
 				<string>NO</string>
 				<key>CommandID</key>
-				<string>Xcode.IDEKit.CmdDefinition.Cut</string>
+				<string>Xcode.IDEKit.CmdDefinition.Copy</string>
 				<key>Group</key>
 				<string>Edit Menu</string>
 				<key>GroupID</key>
@@ -62,7 +62,25 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Cut</string>
+				<string>Copy</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>paste:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.Paste</string>
+				<key>Group</key>
+				<string>Edit Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Paste</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -525,7 +543,7 @@
 			<string>deleteWordForward:</string>
 			<key>@f</key>
 			<string>moveWordForward:</string>
-			<key>@p</key>
+			<key>@v</key>
 			<string>pageUp:</string>
 			<key>^/</key>
 			<string>nextCompletion:</string>

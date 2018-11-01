@@ -9,5 +9,6 @@ if [ $SYSTEM_TYPE == "Darwin" ]; then
 	cp -v emacs.idekeybindings "$XCODE_USER_DATA_PATH/KeyBindings/"
 	mkdir -p $FONT_AND_COLOR_THEME_DIR
 	cp -v Default_C2.dvtcolortheme "$FONT_AND_COLOR_THEME_DIR"
+	cp -v SidewalkChalk_C2.dvtcolortheme "$FONT_AND_COLOR_THEME_DIR"
 fi
 echo "### End"
